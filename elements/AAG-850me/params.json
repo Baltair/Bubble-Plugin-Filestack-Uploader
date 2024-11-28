@@ -1,0 +1,101 @@
+{
+    "add_is_visible": false,
+    "category": "input forms",
+    "default_dim": {
+        "height": 200,
+        "width": 200
+    },
+    "display": "Filestack Uploader",
+    "events": {
+        "ABh": {
+            "caption": "upload is done",
+            "name": "onUploadDone"
+        }
+    },
+    "has_reset_fn": true,
+    "icon": "ion-android-upload",
+    "property_applications": {
+        "Border": false,
+        "MinWidth": false,
+        "Padding": false,
+        "resizable": true
+    },
+    "states": {
+        "ABi": {
+            "caption": "filename",
+            "doc": "",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": false,
+            "name": "uploaded_filename",
+            "value": "text"
+        },
+        "ABj": {
+            "caption": "file url",
+            "doc": "",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": false,
+            "name": "uploaded_URL",
+            "value": "text"
+        },
+        "ABk": {
+            "caption": "handle",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "uploaded_handle",
+            "value": "text"
+        },
+        "ABl": {
+            "caption": "mimetype",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "uploaded_mimetype",
+            "value": "text"
+        },
+        "ABm": {
+            "caption": "originalPath",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "uploaded_originalpath",
+            "value": "text"
+        },
+        "ABn": {
+            "caption": "size",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "uploaded_size",
+            "value": "number"
+        },
+        "ABo": {
+            "caption": "source",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "uploaded_source",
+            "value": "text"
+        },
+        "ABp": {
+            "caption": "status",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "uploaded_status",
+            "value": "text"
+        },
+        "ABq": {
+            "caption": "upload id",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "uploaded_id",
+            "value": "text"
+        }
+    }
+}

@@ -1,0 +1,290 @@
+{
+    "caption": "Show Popup",
+    "doc": "You must select at least 1. You can refer to this documentation : https://www.filestack.com/docs/transformations/ui/web/",
+    "fields": {
+        "ACK": {
+            "caption": "Enable Local File System",
+            "default_val": true,
+            "doc": "This is your user's disk.",
+            "editor": "Checkbox",
+            "name": "enable_local_file_system",
+            "rank": 1
+        },
+        "ACL": {
+            "caption": "Enable URL",
+            "default_val": true,
+            "doc": "Upload file directly from URL.",
+            "editor": "Checkbox",
+            "name": "enable_url",
+            "rank": 2
+        },
+        "ACM": {
+            "caption": "Enable Image Search",
+            "default_val": true,
+            "doc": "Search for images in the File Picker.",
+            "editor": "Checkbox",
+            "name": "enable_imagesearch",
+            "rank": 3
+        },
+        "ACN": {
+            "caption": "Enable Facebook",
+            "default_val": false,
+            "editor": "Checkbox",
+            "name": "enable_facebook",
+            "rank": 4
+        },
+        "ACO": {
+            "caption": "Enable Instagram",
+            "default_val": false,
+            "editor": "Checkbox",
+            "name": "enable_instagram",
+            "rank": 5
+        },
+        "ACP": {
+            "caption": "Enable Google Drive",
+            "default_val": false,
+            "editor": "Checkbox",
+            "name": "enable_googledrive",
+            "rank": 6
+        },
+        "ACQ": {
+            "caption": "Enable Dropbox",
+            "default_val": false,
+            "doc": "You will need your own OAuth2 application with Dropbox.",
+            "editor": "Checkbox",
+            "name": "enable_dropbox",
+            "rank": 7
+        },
+        "ACR": {
+            "caption": "Enable Unsplash",
+            "default_val": false,
+            "doc": "Search for free, high quality images from Unsplash community.",
+            "editor": "Checkbox",
+            "name": "enable_unsplash",
+            "rank": 8
+        },
+        "ACS": {
+            "caption": "Enable Webcam",
+            "default_val": false,
+            "doc": "Uses device menu on mobile. Not currently supported in Safari and IE.",
+            "editor": "Checkbox",
+            "name": "enable_webcam",
+            "rank": 9
+        },
+        "ACT": {
+            "caption": "Enable Video",
+            "default_val": false,
+            "doc": "Uses device menu on mobile. Not currently supported in Safari and IE.",
+            "editor": "Checkbox",
+            "name": "enable_video",
+            "rank": 10
+        },
+        "ACU": {
+            "caption": "Enable Audio",
+            "default_val": false,
+            "doc": "Uses device menu on mobile. Not currently supported in Safari and IE.",
+            "editor": "Checkbox",
+            "name": "enable_audio",
+            "rank": 11
+        },
+        "ACV": {
+            "caption": "Enable Box",
+            "default_val": false,
+            "editor": "Checkbox",
+            "name": "enable_box",
+            "rank": 12
+        },
+        "ACW": {
+            "caption": "Enable Gmail",
+            "default_val": false,
+            "editor": "Checkbox",
+            "name": "enable_gmail",
+            "rank": 13
+        },
+        "ACX": {
+            "caption": "Enable Google Photos",
+            "default_val": false,
+            "editor": "Checkbox",
+            "name": "enable_googlephotos",
+            "rank": 14
+        },
+        "ACY": {
+            "caption": "Enable OneDrive",
+            "default_val": false,
+            "doc": "",
+            "editor": "Checkbox",
+            "name": "enable_onedrive",
+            "rank": 15
+        },
+        "ACZ": {
+            "caption": "Enable OneDrive Business",
+            "default_val": false,
+            "doc": "You will need your own OAuth2 application with OneDrive for Business. ",
+            "editor": "Checkbox",
+            "name": "enable_onedrive_business",
+            "rank": 16
+        },
+        "ACa": {
+            "caption": "Select wich source can be used",
+            "editor": "Label",
+            "name": "info1",
+            "rank": 0
+        },
+        "ACb": {
+            "caption": "Select wich file type can be uploaded",
+            "editor": "Label",
+            "name": "info2",
+            "rank": 17
+        },
+        "ACc": {
+            "caption": "Enable .pdf",
+            "default_val": true,
+            "doc": "any file extension",
+            "editor": "Checkbox",
+            "name": "Fenable_pdf",
+            "rank": 19
+        },
+        "ACd": {
+            "caption": "Enable image/jpeg",
+            "default_val": true,
+            "doc": " any mime type commonly known by browsers",
+            "editor": "Checkbox",
+            "name": "Fenable_jpeg",
+            "rank": 20
+        },
+        "ACe": {
+            "caption": "Enable image/*",
+            "default_val": true,
+            "doc": "accept all types of images",
+            "editor": "Checkbox",
+            "name": "Fenable_image",
+            "rank": 21
+        },
+        "ACf": {
+            "caption": "Enable video/*",
+            "default_val": true,
+            "doc": "accept all types of video files",
+            "editor": "Checkbox",
+            "name": "Fenable_video",
+            "rank": 22
+        },
+        "ACg": {
+            "caption": "Enable audio/*",
+            "default_val": true,
+            "doc": "accept all types of audio files",
+            "editor": "Checkbox",
+            "name": "Fenable_audio",
+            "rank": 23
+        },
+        "ACh": {
+            "caption": "Enable application/*",
+            "default_val": true,
+            "doc": "accept all types of application files",
+            "editor": "Checkbox",
+            "name": "Fenable_application",
+            "rank": 24
+        },
+        "ACi": {
+            "caption": "Enable text/*",
+            "default_val": true,
+            "doc": "accept all types of text files",
+            "editor": "Checkbox",
+            "name": "Fenable_text",
+            "rank": 25
+        },
+        "ACj": {
+            "caption": "Where to store the file",
+            "editor": "Label",
+            "name": "info3",
+            "rank": 28
+        },
+        "ACk": {
+            "caption": "Location",
+            "doc": "(Optional) FileStack = Nothing ,   Amazon = s3 ,   Google Cloud = gcs ,   Rackspace = rackspace ,   Dropbox = dropbox",
+            "editor": "DynamicValue",
+            "name": "location",
+            "optional": true,
+            "options": "",
+            "rank": 29,
+            "value": "text"
+        },
+        "ACl": {
+            "caption": "Path",
+            "doc": "(Optional) Path where to store the file. Usually \"/\" means the root.",
+            "editor": "DynamicValue",
+            "name": "path",
+            "optional": true,
+            "rank": 30,
+            "value": "text"
+        },
+        "ADF": {
+            "caption": "Files Max",
+            "default_val": 4,
+            "doc": "Choose the maximum number of files allowed to upload",
+            "editor": "DynamicValue",
+            "name": "maxFiles",
+            "rank": 32,
+            "value": "number"
+        },
+        "ADG": {
+            "caption": "Files Min",
+            "default_val": 1,
+            "doc": "Choose the minimum number of files allowed to upload.",
+            "editor": "DynamicValue",
+            "name": "minFiles",
+            "rank": 33,
+            "value": "number"
+        },
+        "ADH": {
+            "caption": "File Upload Parameters",
+            "editor": "Label",
+            "name": "info4",
+            "rank": 31
+        },
+        "ADL": {
+            "caption": "AutoSend MaxFilesReached",
+            "default_val": false,
+            "doc": "Using this parameter you can choose whether to start uploading automatically when maxFiles is hit.",
+            "editor": "DynamicValue",
+            "name": "startuploadingwhenmaxfilesreached",
+            "rank": 34,
+            "value": "boolean"
+        },
+        "ADN": {
+            "caption": "Disable Transformer",
+            "default_val": false,
+            "doc": "Using this parameter you can disable abbility to edit images.",
+            "editor": "DynamicValue",
+            "name": "disabletransformer",
+            "rank": 27,
+            "value": "boolean"
+        },
+        "ADO": {
+            "caption": "Disable Thumbnails",
+            "default_val": false,
+            "doc": "Using this parameter you can disable local image thumbnail previews in the summary screen.",
+            "editor": "DynamicValue",
+            "name": "disablethumbnails",
+            "rank": 26,
+            "value": "boolean"
+        },
+        "ADP": {
+            "caption": "Max Size (KB)",
+            "default_val": 0,
+            "doc": "Maximum size per file in Kilobyte (Enter \"0\" for unlimited)",
+            "editor": "DynamicValue",
+            "name": "maxSize",
+            "rank": 35,
+            "value": "number"
+        },
+        "ADR": {
+            "caption": "Enable ALL",
+            "default_val": false,
+            "doc": "If set to \"Yes\" it will accept all file format compatible with Filestack and ignore the enabling bellow. (Option added due to filestack not detecting .m4v as video file)",
+            "editor": "Checkbox",
+            "name": "Fenable_ALL",
+            "rank": 18,
+            "value": "boolean"
+        }
+    }
+}

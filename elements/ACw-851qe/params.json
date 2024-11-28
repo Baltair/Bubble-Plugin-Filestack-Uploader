@@ -1,0 +1,140 @@
+{
+    "add_hover_pressed": true,
+    "add_is_visible": true,
+    "can_fit_height": false,
+    "can_fit_width": false,
+    "category": "input forms",
+    "default_dim": {
+        "height": 400,
+        "width": 300
+    },
+    "display": "Filestack Uploader V2 (Multi)",
+    "events": {
+        "ACm": {
+            "caption": "upload is done",
+            "name": "onUploadDone"
+        }
+    },
+    "fields": {
+        "ACx": {
+            "caption": "Mode",
+            "default_val": "overlay",
+            "doc": "overlay = a popup will be displayed | dropPane = the element will be transformed in a drop zone| inline = the element will be transformed in a filepicker",
+            "editor": "Dropdown",
+            "name": "mode",
+            "options": "overlay,dropPane,inline",
+            "rank": 0
+        }
+    },
+    "has_reset_fn": true,
+    "icon": "ion-android-upload",
+    "property_applications": {
+        "Background": true,
+        "Border": true,
+        "BoxShadow": true,
+        "MinWidth": true,
+        "Padding": false,
+        "resizable": true
+    },
+    "states": {
+        "ACn": {
+            "caption": "UploadedtList filename",
+            "doc": "(List) Name of the uploaded file. This can be changed in the PickerOptions.",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "uploaded_filename",
+            "value": "text"
+        },
+        "ACo": {
+            "caption": "UploadedtList file url",
+            "doc": "(List) Unique CDN url to access uploaded file.",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "uploaded_URL",
+            "value": "text"
+        },
+        "ACp": {
+            "caption": "UploadedtList handle",
+            "doc": "(List) Filestack's unique identifier of the uploaded file.",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "uploaded_handle",
+            "value": "text"
+        },
+        "ACq": {
+            "caption": "UploadedtList mimetype",
+            "doc": "(List) Mimetype of the uploaded file.",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "uploaded_mimetype",
+            "value": "text"
+        },
+        "ACr": {
+            "caption": "UploadedtList originalPath",
+            "doc": "(List) Original path from where the file was uploaded.",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "uploaded_originalpath",
+            "value": "text"
+        },
+        "ACs": {
+            "caption": "UploadedtList size",
+            "doc": "(List) Size of the uploaded file.",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "uploaded_size",
+            "value": "number"
+        },
+        "ACt": {
+            "caption": "UploadedtList source",
+            "doc": "(List) Source of the uploaded file.",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "uploaded_source",
+            "value": "text"
+        },
+        "ACu": {
+            "caption": "UploadedtList status",
+            "doc": "(List) Status of the upload. Can be either \"Stored\" or \"InTransit\" for CIN and FII.",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "uploaded_status",
+            "value": "text"
+        },
+        "ACv": {
+            "caption": "UploadedtList upload id",
+            "doc": "(List) Unique id of the upload for debugging.",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "uploaded_id",
+            "value": "text"
+        },
+        "ADE": {
+            "caption": "UploadedtList Count",
+            "doc": "The number of files that has successively uploaded",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "uploaded_count",
+            "value": "number"
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "categories": {
+        "0": "technical",
+        "1": "productivity",
+        "2": "mobile",
+        "3": "data (things)",
+        "4": "video"
+    },
+    "data_tracked": false,
+    "demo_page": "https://joapp-demo01.bubbleapps.io/version-test/filestack",
+    "description": "Use FileStack to easily transfer and transform files and photos.\n\nYou can request improvement to the detector via https://joapp.ca/request\n\nDemo page : https://joapp-demo01.bubbleapps.io/version-test/filestack",
+    "image": "//s3.amazonaws.com/appforest_uf/f1658968271319x868969783941446300/cropped-fs-favicon.webp",
+    "license": "open_source",
+    "link": "https://www.filestack.com/docs/uploads/pickers/web/",
+    "name": "Filestack Uploader",
+    "plugin_instructions": "1 : Create a FileStack Account\n2 : Take the API Key and add it in the plugin",
+    "sa_node_version": 18
+}

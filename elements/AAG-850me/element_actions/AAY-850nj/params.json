@@ -1,0 +1,221 @@
+{
+    "caption": "Show Popup",
+    "doc": "You must select at least 1. You can refer to this documentation : https://www.filestack.com/docs/transformations/ui/web/",
+    "fields": {
+        "AAZ": {
+            "caption": "Enable Local File System",
+            "default_val": true,
+            "doc": "This is your user's disk.",
+            "editor": "Checkbox",
+            "name": "enable_local_file_system",
+            "rank": 1
+        },
+        "AAa": {
+            "caption": "Enable URL",
+            "default_val": true,
+            "doc": "Upload file directly from URL.",
+            "editor": "Checkbox",
+            "name": "enable_url",
+            "rank": 2
+        },
+        "AAb": {
+            "caption": "Enable Image Search",
+            "default_val": true,
+            "doc": "Search for images in the File Picker.",
+            "editor": "Checkbox",
+            "name": "enable_imagesearch",
+            "rank": 3
+        },
+        "AAc": {
+            "caption": "Enable Facebook",
+            "default_val": false,
+            "editor": "Checkbox",
+            "name": "enable_facebook",
+            "rank": 4
+        },
+        "AAd": {
+            "caption": "Enable Instagram",
+            "default_val": false,
+            "editor": "Checkbox",
+            "name": "enable_instagram",
+            "rank": 5
+        },
+        "AAe": {
+            "caption": "Enable Google Drive",
+            "default_val": false,
+            "editor": "Checkbox",
+            "name": "enable_googledrive",
+            "rank": 6
+        },
+        "AAf": {
+            "caption": "Enable Dropbox",
+            "default_val": false,
+            "doc": "You will need your own OAuth2 application with Dropbox.",
+            "editor": "Checkbox",
+            "name": "enable_dropbox",
+            "rank": 7
+        },
+        "AAg": {
+            "caption": "Enable Unsplash",
+            "default_val": false,
+            "doc": "Search for free, high quality images from Unsplash community.",
+            "editor": "Checkbox",
+            "name": "enable_unsplash",
+            "rank": 8
+        },
+        "AAh": {
+            "caption": "Enable Webcam",
+            "default_val": false,
+            "doc": "Uses device menu on mobile. Not currently supported in Safari and IE.",
+            "editor": "Checkbox",
+            "name": "enable_webcam",
+            "rank": 9
+        },
+        "AAi": {
+            "caption": "Enable Video",
+            "default_val": false,
+            "doc": "Uses device menu on mobile. Not currently supported in Safari and IE.",
+            "editor": "Checkbox",
+            "name": "enable_video",
+            "rank": 10
+        },
+        "AAj": {
+            "caption": "Enable Audio",
+            "default_val": false,
+            "doc": "Uses device menu on mobile. Not currently supported in Safari and IE.",
+            "editor": "Checkbox",
+            "name": "enable_audio",
+            "rank": 11
+        },
+        "AAk": {
+            "caption": "Enable Box",
+            "default_val": false,
+            "editor": "Checkbox",
+            "name": "enable_box",
+            "rank": 12
+        },
+        "AAl": {
+            "caption": "Enable Gmail",
+            "default_val": false,
+            "editor": "Checkbox",
+            "name": "enable_gmail",
+            "rank": 13
+        },
+        "AAm": {
+            "caption": "Enable Google Photos",
+            "default_val": false,
+            "editor": "Checkbox",
+            "name": "enable_googlephotos",
+            "rank": 14
+        },
+        "AAn": {
+            "caption": "Enable OneDrive",
+            "default_val": false,
+            "doc": "",
+            "editor": "Checkbox",
+            "name": "enable_onedrive",
+            "rank": 15
+        },
+        "AAo": {
+            "caption": "Enable OneDrive Business",
+            "default_val": false,
+            "doc": "You will need your own OAuth2 application with OneDrive for Business. ",
+            "editor": "Checkbox",
+            "name": "enable_onedrive_business",
+            "rank": 16
+        },
+        "AAp": {
+            "caption": "Select wich source can be used",
+            "editor": "Label",
+            "name": "info1",
+            "rank": 0
+        },
+        "AAq": {
+            "caption": "Select wich file type can be uploaded",
+            "editor": "Label",
+            "name": "info2",
+            "rank": 17
+        },
+        "AAr": {
+            "caption": "Enable .pdf",
+            "default_val": true,
+            "doc": "any file extension",
+            "editor": "Checkbox",
+            "name": "Fenable_pdf",
+            "rank": 18
+        },
+        "AAs": {
+            "caption": "Enable image/jpeg",
+            "default_val": true,
+            "doc": " any mime type commonly known by browsers",
+            "editor": "Checkbox",
+            "name": "Fenable_jpeg",
+            "rank": 19
+        },
+        "AAt": {
+            "caption": "Enable image/*",
+            "default_val": true,
+            "doc": "accept all types of images",
+            "editor": "Checkbox",
+            "name": "Fenable_image",
+            "rank": 20
+        },
+        "AAu": {
+            "caption": "Enable video/*",
+            "default_val": true,
+            "doc": "accept all types of video files",
+            "editor": "Checkbox",
+            "name": "Fenable_video",
+            "rank": 21
+        },
+        "AAv": {
+            "caption": "Enable audio/*",
+            "default_val": true,
+            "doc": "accept all types of audio files",
+            "editor": "Checkbox",
+            "name": "Fenable_audio",
+            "rank": 22
+        },
+        "AAw": {
+            "caption": "Enable application/*",
+            "default_val": true,
+            "doc": "accept all types of application files",
+            "editor": "Checkbox",
+            "name": "Fenable_application",
+            "rank": 23
+        },
+        "AAx": {
+            "caption": "Enable text/*",
+            "default_val": true,
+            "doc": "accept all types of text files",
+            "editor": "Checkbox",
+            "name": "Fenable_text",
+            "rank": 24
+        },
+        "AAy": {
+            "caption": "Where to store the file",
+            "editor": "Label",
+            "name": "info3",
+            "rank": 25
+        },
+        "AAz": {
+            "caption": "Location",
+            "doc": "(Optional) FileStack = Nothing ,   Amazon = s3 ,   Google Cloud = gcs ,   Rackspace = rackspace ,   Dropbox = dropbox",
+            "editor": "DynamicValue",
+            "name": "location",
+            "optional": true,
+            "options": "",
+            "rank": 26,
+            "value": "text"
+        },
+        "ABA": {
+            "caption": "Path",
+            "doc": "(Optional) Path where to store the file. Usually \"/\" means the root.",
+            "editor": "DynamicValue",
+            "name": "path",
+            "optional": true,
+            "rank": 27,
+            "value": "text"
+        }
+    }
+}
